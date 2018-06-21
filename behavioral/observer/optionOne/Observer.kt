@@ -1,4 +1,4 @@
-package observer.optionOne
+package behavioral.observer.optionOne
 
 import kotlin.properties.Delegates
 
