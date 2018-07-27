@@ -1,5 +1,9 @@
 package сreational.factory_method.optionOne
 
+import models.Ship
+import models.Vehicle
+import models.VehicleType
+
 /*
 Factory can be an object and still works
  */

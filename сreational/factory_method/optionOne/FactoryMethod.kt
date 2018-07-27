@@ -1,5 +1,7 @@
 package сreational.factory_method.optionOne
 
+import models.VehicleType
+
 /*
 Classic implementations
  */

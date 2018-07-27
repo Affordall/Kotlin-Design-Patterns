@@ -1,12 +1,15 @@
 package behavioral.observer.optionOne
 
+import models.Train
+import models.Vehicle
 import kotlin.properties.Delegates
 
 /**
  *
  */
 class Observer {
-    val optionOne: Int by Delegates.observable(0) { property, oldValue, newValue ->
+
+    val vehicle: Vehicle by Delegates.observable(Train()) { property, oldValue, newValue ->
         println("Property ${property} is changed from ${oldValue} to ${newValue}")
     }
 }

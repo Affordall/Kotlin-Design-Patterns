@@ -1,6 +1,11 @@
-package сreational.factory_method.optionOne
+package models
 
-class Train: Vehicle {
+/**
+ * By default, all the classes in Kotlin are final (non-inheritable).
+ * To allow a class to be inherited by others, you must mark it with the open modifier.
+ */
+
+open class Car: Vehicle {
 
     override fun moveForward() {
         TODO("not implemented")
@@ -23,6 +28,6 @@ class Train: Vehicle {
     }
 
     override fun getType(): VehicleType {
-        return VehicleType.TRAIN
+        return VehicleType.CAR
     }
 }

@@ -1,4 +1,4 @@
-package сreational.factory_method.optionOne
+package models
 
 enum class VehicleType {
     CAR,

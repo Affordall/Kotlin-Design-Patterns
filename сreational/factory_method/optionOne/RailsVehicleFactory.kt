@@ -1,5 +1,10 @@
 package сreational.factory_method.optionOne
 
+import models.Train
+import models.Tram
+import models.Vehicle
+import models.VehicleType
+
 class RailsVehicleFactory: VehicleFactory {
 
     /*
